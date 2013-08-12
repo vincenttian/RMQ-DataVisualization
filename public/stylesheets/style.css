@@ -1,0 +1,21 @@
+body {
+	padding: 50px;
+	background-color: #F9B7B7;
+	font-family: Verdana;
+}
+
+.button {
+	padding: 5px;
+	background-color: #dcdcdc;
+	border: 2px solid black;
+	color: #000;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: white;
+}
+
+a:visited {
+	color: #971155;
+}

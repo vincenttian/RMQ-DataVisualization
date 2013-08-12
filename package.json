@@ -1,0 +1,13 @@
+{
+  "name": "af-rabbitmq-example",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "amqp": "*",
+	"winston": "*",
+	"nconf": "*",
+	"view-helpers": "latest",
+    "winston": "~0.7.1",
+    "winston-request-logger": "latest"
+  }
+}

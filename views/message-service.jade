@@ -1,0 +1,15 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1= title
+    h3 Please select the ticker for a security:
+    form(action='/newMessage', method='post')
+      input(type='text', name='newMessage', size='50')
+      input.button(type='submit', value='Load charts/graphs')
+
+    h4 Here are the data visualization tools:
+
+    p= sentMessage
